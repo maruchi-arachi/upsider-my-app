@@ -66,10 +66,6 @@ jobs:
           vuln-type: 'library'
           severity: 'CRITICAL,HIGH'
 
-        name: Node.js package
-        on: 
-          push:
-            branches: ["main"]
 
         env:
           ENABLE_TRIVY: false -> true
